@@ -1,22 +1,55 @@
 
-header {
+header {  
+  color: white;
+  background-color: midnightblue; 
+}
+
+header .container {
+  margin: auto;
   padding: 0 20px;
+  height: 120px;
+  max-width: 960px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 120px;
-  background-color: midnightblue;
-  color: white;
+  align-items: center;
 }
 
-header h1 {
-  font-weight: 300;
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header .container h1 {
+  margin: 0;
   font-style: italic;
+  font-weight: 300;
 }
 
-header ul {
+.sub-text {
+  display: flex;
+  gap: 10px;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+header .container h4 {
+  margin: 0;
+  color: red;
+  font-style: italic;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+header .container ul {
   margin-right: 40px;
   display: flex;
   align-self: flex-end;
   gap: 60px;
   list-style-type: none;
+}
+
+header .container li {
+  white-space: nowrap;
 }
