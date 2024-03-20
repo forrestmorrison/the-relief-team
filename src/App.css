@@ -1,4 +1,6 @@
 
+/* Header */
+
 header {  
   color: white;
   background-color: midnightblue; 
@@ -85,4 +87,20 @@ header .container ul {
 
 header .container li {
   white-space: nowrap;
+}
+
+/* Main */
+
+.slider {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  margin: auto;
+}
+
+.slide-tabs {
+  color: green;
 }
