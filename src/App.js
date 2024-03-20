@@ -2,11 +2,17 @@ import './App.css';
 import ImageSlider from './components/ImageSlider';
 
 function App() {
-  const Slides = [
-    { url: "http://localhost:3000/slide-1.jpg", title: "Slide-1" },
-    { url: "http://localhost:3000/slide-2.jpg", title: "Slide-2" },
-    { url: "http://localhost:3000/slide-3.jpg", title: "Slide-3" },
+  const slides = [
+    { url: "http://localhost:3000/images/slide1.png", title: "Slide-1" },
+    { url: "http://localhost:3000/images/slide2.png", title: "Slide-2" },
+    { url: "http://localhost:3000/images/slide3.png", title: "Slide-3" },
   ]
+
+  const containerStyles = {
+    width: '100%',
+    height: '400px',
+    margin: '0 auto'
+  }
 
   return (
     <div className="App">
@@ -33,7 +39,9 @@ function App() {
         </div>
       </header>
       <main>
-        <ImageSlider slides={slides} />
+        <div style={containerStyles}>
+          <ImageSlider slides={slides}/>
+        </div>
       </main>
     </div>
   );

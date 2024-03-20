@@ -1,28 +1,26 @@
-import Slide1 from "../images/slide-1.jpg";
-import Slide2 from "../images/slide-2.jpg";
-import Slide3 from "../images/slide-3.jpg";
+import { useState } from "react";
 
-const ImageSlider = () => {
-  return (
-    <div>
-      <div className='slides'>
-            <div id="slide-1">
-              <img src={Slide1} alt="" />
-            </div>
-            <div id="slide-2">
-            <img src={Slide2} alt="" />
-            </div>
-            <div id="slide-3">
-            <img src={Slide3} alt="" />
-            </div>
-          </div>
-          <div className='slide-tabs'>
-            <a href="#slide-1">•</a>
-            <a href="#slide-2">•</a>
-            <a href="#slide-3">•</a>
-          </div>
-    </div>
-  )
+const ImageSlider = ({ slides }) => {
+    const [currentIndex, setCurrentIndex] = useState(2);
+
+    const sliderStyles = {
+        height: "100%",
+        position: "relative"
+    }
+
+    const slideStyles = {
+        width: "100%",
+        height: "100%",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundImage: `url(${slides[currentIndex].url})`
+    }
+
+    return (
+        <div style={sliderStyles}>
+            <div style={slideStyles}></div>
+        </div>
+    )
 }
 
 export default ImageSlider
