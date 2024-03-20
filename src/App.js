@@ -8,10 +8,14 @@ function App() {
           <div className='logo'>
             <h1>The <strong>Relief</strong> Team</h1>
             <div className='sub-text'>
-            <h4>Emergency Response</h4>
-            <h4>Pre-Planning & Support</h4>
+              <h4>Emergency Response</h4>
+              <h4>Pre-Planning & Support</h4>
             </div>
           </div>
+          <section>
+            <p>24/7 Emergency Support</p>
+            <p className='phone-number'>+1 800.444.4444</p>
+          </section>
           <ul className='nav'>
             <li>ABOUT US</li>
             <li>PRODUCTS</li>
