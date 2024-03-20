@@ -1,0 +1,22 @@
+
+header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  background-color: midnightblue;
+  color: white;
+}
+
+header h1 {
+  font-weight: 300;
+  font-style: italic;
+}
+
+header ul {
+  margin-right: 40px;
+  display: flex;
+  align-self: flex-end;
+  gap: 60px;
+  list-style-type: none;
+}
