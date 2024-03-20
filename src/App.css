@@ -16,8 +16,10 @@ header .container {
 }
 
 .logo {
-  grid-column: 1 / 2;
+  grid-column: 0 / 2;
   grid-row: 2;
+  align-self: center;
+  justify-self: center;
   width: 230px;
   display: flex;
   flex-direction: column;
@@ -74,7 +76,8 @@ header .container ul {
   grid-row: 3;
   margin-right: 40px;
   display: flex;
-  align-self: flex-end;
+  align-self: center;
+  justify-self: center;
   gap: 60px;
   list-style-type: none;
 }
