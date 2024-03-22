@@ -1,5 +1,4 @@
 import '../App.css';
-
 import ImageSlider from '../components/ImageSlider';
 
   const slides = [
@@ -16,9 +15,12 @@ const containerStyles = {
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
         <div style={containerStyles}>
             <ImageSlider slides={slides} />
+        </div>
+        <div className='services'>
+            <h2>SERVICES</h2>
         </div>
     </div>
   )
