@@ -98,26 +98,52 @@ header .container li {
 }
 
 .services {
-  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.services .heading {
+  width: 250px;
   height: 60px;
   position: relative;
   margin: 20px;
+  margin-top: 0px;
 }
 
-.services::after {
+.services .heading::after {
   content: '';
   width: 50px;
   height: 10px;
   background: red;
   position: absolute;
   bottom: -40px;
-  right: 150px;
+  right: 100px;
 }
 
-.services h2 {
+.services .heading h2 {
   font-size: 40px;
   text-align: center;
   color: midnightblue;
+}
+
+.services-info {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: 60px 0;
+}
+
+.services-info section {
+  width: 250px;
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+.services-info h3 {
+  text-align: center;
+  color: midnightblue
 }
 
 /* Image Slider */

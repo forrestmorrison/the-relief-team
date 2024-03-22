@@ -14,8 +14,7 @@ const ImageSlider = ({ slides }) => {
         height: "100%",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        backgroundImage: `url(${slides[currentIndex].url})`,
-        animation: "fade 1.5s ease-in-out"
+        backgroundImage: `url(${slides[currentIndex].url})`
     }
 
     const leftArrowStyles = {
@@ -45,7 +44,7 @@ const ImageSlider = ({ slides }) => {
         justifyContent: "center",
         position: 'absolute',
         transform: 'translate(0, -50%)',
-        left: "47%",
+        left: "48%",
         bottom: "0%",
         color: "#fff",
         zIndex: 1,

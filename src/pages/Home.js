@@ -20,8 +20,35 @@ const Home = () => {
             <ImageSlider slides={slides} />
         </div>
         <div className='services'>
-            <h2>SERVICES</h2>
+            <div className='heading'>
+                <h2>SERVICES</h2>
+            </div>
+            <div className='services-info'>
+                <section>
+                    <h3>Training</h3>
+                    <p>
+                        Our years of experience in crisis management and incident response help us deliver superior training courses.
+                        We offer both instructor led training in person or virtual training.
+                        Proper training makes a difference when responding to a real event.
+                    </p>
+                </section>
+                <section>
+                    <h3>Exercise Design & Facilitation</h3>
+                    <p>
+                        We design and facilitate emergency response management team exercises bith in the US and internationally.
+                        These range from small tabletop exercises to large exercises encompassing multiple levels of management response at geographically separated locations
+                    </p>
+                </section>
+                <section>
+                    <h3>Response Support</h3>
+                    <p>
+                        We have dedicated professionals on call 24/7 to provide emergency resonse support for All-Hazards.
+                        Our team can provide remote support or deploy personnel onsite to integrate with your team for any event.
+                    </p>
+                </section>
+            </div>
         </div>
+        
     </div>
   )
 }
