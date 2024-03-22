@@ -1,18 +1,8 @@
 import './App.css';
-import ImageSlider from './components/ImageSlider';
+import { Routes, Route } from 'react-router';
+import Home from "./pages/Home"
 
 function App() {
-  const slides = [
-    { url: "http://localhost:3000/images/slide1.png", title: "Slide-1" },
-    { url: "http://localhost:3000/images/slide2.png", title: "Slide-2" },
-    { url: "http://localhost:3000/images/slide3.png", title: "Slide-3" },
-  ]
-
-  const containerStyles = {
-    width: '100%',
-    height: '400px',
-    margin: '0 auto'
-  }
 
   return (
     <div className="App">
@@ -27,7 +17,7 @@ function App() {
           </div>
           <section>
             <p>24/7 Emergency Support</p>
-            <p className='phone-number'>+1 800.444.4444</p>
+            <p className='phone-number'>+1 800 4-RELIEF</p>
           </section>
           <ul className='nav'>
             <li>ABOUT US</li>
@@ -39,9 +29,9 @@ function App() {
         </div>
       </header>
       <main>
-        <div style={containerStyles}>
-          <ImageSlider slides={slides}/>
-        </div>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
       </main>
     </div>
   );

@@ -14,7 +14,8 @@ const ImageSlider = ({ slides }) => {
         height: "100%",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        backgroundImage: `url(${slides[currentIndex].url})`
+        backgroundImage: `url(${slides[currentIndex].url})`,
+        animation: "fade 1.5s ease-in-out"
     }
 
     const leftArrowStyles = {
