@@ -166,6 +166,7 @@ header .container li {
   margin: 20px 40px;
   padding: 10px;
   border-radius: 20px;
+  color: white;
   background-color: midnightblue;
   align-self: flex-start;
 }
@@ -190,11 +191,9 @@ header .container li {
   font-size: 40px;
   margin: 0;
   text-align: center;
-  color: white;
 }
 
 .about-us p {
-  color: white;
   margin: 10px;
   margin-top: 20px;
   text-align: justify;
@@ -203,7 +202,7 @@ header .container li {
 .stats {
   height: 200px;
   width: 100%;
-  margin: 20px 0;
+  margin: 40px 0;
   color: white;
   background-color: darkred;
   display: flex;
@@ -236,6 +235,10 @@ header .container li {
 
 .products {
   width: 80%;
+  display: flex;
+  margin-top: 20px;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
 .product-types {
@@ -269,5 +272,46 @@ header .container li {
 }
 
 .products p {
-  margin: 5px
+  margin: 5px;
+  text-align: center;
+}
+
+.description {
+  width: 280px;
+  height: 600px;
+  margin: 0 40px;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: midnightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.products .heading {
+  width: 220px;
+  position: relative;
+}
+
+
+.products .heading::after {
+  content: '';
+  width: 100px;
+  height: 10px;
+  background: darkred;
+  position: absolute;
+  bottom: -10px;
+  left: 8px;
+}
+
+.products .heading h2 {
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+.description p {
+  margin-top: 80px;
+  text-align: justify;
 }

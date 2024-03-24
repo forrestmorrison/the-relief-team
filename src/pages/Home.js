@@ -131,7 +131,13 @@ const Home = () => {
                 </div>
             </div>
             <div className='description'>
-
+                <div className='heading'>
+                    <h2>PRODUCTS</h2>
+                </div>
+                <p>
+                    The Relief Team has years of experience in delivering advanced real world technological solutions to the energy sector, particularly emergency response programs focusing on preservation and recovery of strategic company assets and operations through response support, planning, training, exercising and compliance.
+                    We have knowledgeable staff ready to assist your company in reaching its emergency preparedness goals and look forward to working alongside you to establish a better preparedness posture within your organization.
+                </p>
             </div>
         </div>
     </div>
