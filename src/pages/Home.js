@@ -54,6 +54,19 @@ const Home = () => {
                 </section>
             </div>
         </div>
+        <div className='container'>
+            <div className='about-us'>
+                <div className='heading'>
+                    <h2>ABOUT US</h2>
+                </div>
+                <p>
+                    Established in 2024, The Relief Team is the almost industry leader in Crisis Management and Emergency Response with a wide spectrum of experience in the oil and gas, chemical, and emergency response industries for both private and public sector.
+                    We provide quality products with a suite of emergency response software and services from plans to actual response support.
+                    Through the appropriate and accurate implementation of technology, regulatory interpretation, and creativity, we shall provide practical and cost effective solutions to the full spectrum of our clientele.
+                    We will make every effort to exceed expectations and ensure success to all parties.
+                </p>
+            </div>
+        </div>
         
     </div>
   )
