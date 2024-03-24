@@ -67,7 +67,20 @@ const Home = () => {
                 </p>
             </div>
         </div>
-        
+        <div className='stats'>
+            <section className='stats-section'>
+                <h1>281</h1>
+                <h2>Exercises Supported</h2>
+            </section>
+            <section className='stats-section'>
+                <h1>330</h1>
+                <h2>Emergency Responses Supported</h2>
+            </section>
+            <section>
+                <h1>8004</h1>
+                <h2>Instructed Training Sessions</h2>
+            </section>
+        </div> 
     </div>
   )
 }
