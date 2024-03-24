@@ -1,5 +1,8 @@
 import '../App.css';
 import ImageSlider from '../components/ImageSlider';
+import Img1 from "../images/img1.jpg"
+import Img2 from "../images/img2.jpg"
+import Img3 from "../images/img3.jpg"
 
   const slides = [
     { url: "http://localhost:3000/images/slide1.png", title: "Slide-1" },
@@ -25,6 +28,7 @@ const Home = () => {
             </div>
             <div className='services-info'>
                 <section>
+                    <img src={Img1} alt='' className='img'/>
                     <h3>Training</h3>
                     <p>
                         Our years of experience in crisis management and incident response help us deliver superior training courses.
@@ -33,13 +37,15 @@ const Home = () => {
                     </p>
                 </section>
                 <section>
+                    <img src={Img2} alt='' className='img'/>
                     <h3>Exercise Design & Facilitation</h3>
                     <p>
-                        We design and facilitate emergency response management team exercises bith in the US and internationally.
-                        These range from small tabletop exercises to large exercises encompassing multiple levels of management response at geographically separated locations
+                        We design and facilitate emergency response management team exercises both in the US and internationally.
+                        These range from small tabletop exercises to large exercises encompassing multiple levels of management response at geographically separated locations.
                     </p>
                 </section>
                 <section>
+                    <img src={Img3} alt='' className='img'/>
                     <h3>Response Support</h3>
                     <p>
                         We have dedicated professionals on call 24/7 to provide emergency resonse support for All-Hazards.

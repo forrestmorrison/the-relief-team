@@ -139,11 +139,16 @@ header .container li {
   width: 250px;
   padding: 20px;
   background-color: lightgrey;
+  box-shadow: 0 0 5px 0px grey;
 }
 
 .services-info h3 {
   text-align: center;
   color: midnightblue
+}
+
+.img {
+  width: 100%;
 }
 
 /* Image Slider */
