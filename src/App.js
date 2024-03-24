@@ -33,6 +33,37 @@ function App() {
           <Route exact path="/" element={<Home />} />
         </Routes>
       </main>
+      <footer>
+        <section>
+          <div className='footer-logo'>
+            <h1>The <strong>Relief</strong> Team</h1>
+            <div className='sub-text'>
+              <h4>Emergency Response</h4>
+              <h4>Pre-Planning & Support</h4>
+            </div>
+          </div>
+          <p>© The Relief Team</p>
+          <div className='address'>
+            <p>4444 Westheimer Rd</p>
+            <p>Houston, TX 77777</p>
+          </div>
+        </section>
+        <section>
+          <h2>Company Info</h2>
+          <div className='links'>
+            <p>Contact Us</p>
+            <p>Office Locations</p>
+          </div>
+        </section>
+        <section>
+          <h2>Quick Nav</h2>
+          <div className='links'>
+            <p>HR Portal</p>
+            <p>Employee Webmail</p>
+            <p>Privacy Policy</p>
+          </div>
+        </section>
+      </footer>
     </div>
   );
 }
