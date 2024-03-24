@@ -28,25 +28,28 @@ header .container {
   justify-content: center;
 }
 
-header .container h1 {
+header h1 {
   margin: 0;
   font-style: italic;
   font-weight: 300;
+  text-shadow: 4px 4px black;
 }
 
 .sub-text {
   display: flex;
   gap: 10px;
   margin-top: -10px;
-  margin-left: -10px;
+  margin-left: -21px;
+  font-weight: 300px;
 }
 
-header .container h4 {
+header h4 {
   margin: 0;
-  color: red;
+  color: darkred;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 500;
   white-space: nowrap;
+  text-shadow: 2px 2px black;
 }
 
 header section {
@@ -57,7 +60,7 @@ header section {
   justify-self: end;
   border-radius: 0 0 20px 20px;
   box-shadow: 0 0 3px 1px black;
-  background-color: red;
+  background-color: darkred;
   width: 200px;
   display: flex;
   flex-direction: column;
@@ -71,7 +74,7 @@ header p {
 }
 
 .phone-number {
-  color: yellow;
+  color: gold;
 }
 
 header .container ul {
@@ -87,6 +90,7 @@ header .container ul {
 
 header .container li {
   white-space: nowrap;
+  text-shadow: 2px 2px black;
 }
 
 /* Home */
@@ -116,7 +120,7 @@ header .container li {
   content: '';
   width: 50px;
   height: 10px;
-  background: red;
+  background: darkred;
   position: absolute;
   bottom: -40px;
   right: 100px;
@@ -140,6 +144,7 @@ header .container li {
   padding: 20px;
   background-color: lightgrey;
   box-shadow: 0 0 5px 0px grey;
+  text-align: justify;
 }
 
 .services-info h3 {
@@ -175,7 +180,7 @@ header .container li {
   content: '';
   width: 100px;
   height: 10px;
-  background: red;
+  background: darkred;
   position: absolute;
   bottom: -10px;
   left: 10px;
@@ -198,8 +203,9 @@ header .container li {
 .stats {
   height: 200px;
   width: 100%;
+  margin: 20px 0;
   color: white;
-  background-color: red;
+  background-color: darkred;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -228,18 +234,40 @@ header .container li {
   text-align: center;
 }
 
-/* Image Slider */
-
-.slider {
-  height: 400px;
-  width: 100%;
-  overflow: hidden;
+.products {
+  width: 80%;
 }
 
-.slides {
-  margin: auto;
+.product-types {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
-.slide-tabs {
-  color: green;
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.products section {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  color: midnightblue;
+}
+
+.products h4 {
+  margin: 5px;
+  font-size: 24px;
+}
+
+.products p {
+  margin: 5px
 }

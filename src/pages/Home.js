@@ -1,8 +1,14 @@
 import '../App.css';
 import ImageSlider from '../components/ImageSlider';
-import Img1 from "../images/img1.jpg"
-import Img2 from "../images/img2.jpg"
-import Img3 from "../images/img3.jpg"
+import Img1 from "../images/img1.jpg";
+import Img2 from "../images/img2.jpg";
+import Img3 from "../images/img3.jpg";
+import { FaGlobe } from "react-icons/fa";
+import { FaGlobeAmericas } from 'react-icons/fa';
+import { FaComputer } from 'react-icons/fa6';
+import { MdOutlineWarehouse } from 'react-icons/md';
+import { PiCertificate } from 'react-icons/pi';
+import { SlScreenSmartphone} from "react-icons/sl";
 
   const slides = [
     { url: "http://localhost:3000/images/slide1.png", title: "Slide-1" },
@@ -15,6 +21,12 @@ const containerStyles = {
     height: '400px',
     margin: '0 auto'
   }
+
+const iconStyles = {
+    height: '80px',
+    width: '80px',
+    color: 'grey'
+}
 
 const Home = () => {
   return (
@@ -70,17 +82,58 @@ const Home = () => {
         <div className='stats'>
             <section className='stats-section'>
                 <h1>281</h1>
-                <h2>Exercises Supported</h2>
+                <h4>Exercises Supported</h4>
             </section>
             <section className='stats-section'>
                 <h1>330</h1>
-                <h2>Emergency Responses Supported</h2>
+                <h4>Emergency Responses Supported</h4>
             </section>
             <section>
                 <h1>8004</h1>
-                <h2>Instructed Training Sessions</h2>
+                <h4>Instructed Training Sessions</h4>
             </section>
-        </div> 
+        </div>
+        <div className='products'>
+            <div className='product-types'>
+                <div className='column'>
+                    <section>
+                        <FaGlobeAmericas style={iconStyles} />
+                        <h4>IAP SOFTWARE</h4>
+                        <p>Incident and Crisis Management Software</p>
+                    </section>
+                    <section>
+                        <FaGlobe style={iconStyles} />
+                        <h4>COMMON OPERATING PICTURE</h4>
+                        <p>Command and control web-based mapping tool</p>
+                    </section>
+                    <section>
+                        <MdOutlineWarehouse style={iconStyles} />
+                        <h4>ASSET DEPOT</h4>
+                        <p>Asset Management Software</p>
+                    </section>
+                </div>
+                <div className='column'>
+                    <section>
+                        <SlScreenSmartphone style={iconStyles} />
+                        <h4>MOBILE APPS</h4>
+                        <p>Suite of mobile applications to enhance your capabilities</p>
+                    </section>
+                    <section>
+                        <FaComputer style={iconStyles} />
+                        <h4>WEBPLANS</h4>
+                        <p>Web based plan management software</p>
+                    </section>
+                    <section>
+                        <PiCertificate style={iconStyles} />
+                        <h4>PQS RESPONDER</h4>
+                        <p>Qualifications and Training Management Software</p>
+                    </section>
+                </div>
+            </div>
+            <div className='description'>
+
+            </div>
+        </div>
     </div>
   )
 }
