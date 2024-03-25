@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/the-relief-team/static/css/main.ef5c02db.css",
-    "main.js": "/the-relief-team/static/js/main.c7251bc0.js",
+    "main.js": "/the-relief-team/static/js/main.b958c71c.js",
     "static/media/img2.jpg": "/the-relief-team/static/media/img2.0d7eb962b87630c115c8.jpg",
     "static/media/img1.jpg": "/the-relief-team/static/media/img1.9fb828e55294604110b0.jpg",
     "static/media/img3.jpg": "/the-relief-team/static/media/img3.023364931521f63543a0.jpg",
     "index.html": "/the-relief-team/index.html",
     "main.ef5c02db.css.map": "/the-relief-team/static/css/main.ef5c02db.css.map",
-    "main.c7251bc0.js.map": "/the-relief-team/static/js/main.c7251bc0.js.map"
+    "main.b958c71c.js.map": "/the-relief-team/static/js/main.b958c71c.js.map"
   },
   "entrypoints": [
     "static/css/main.ef5c02db.css",
-    "static/js/main.c7251bc0.js"
+    "static/js/main.b958c71c.js"
   ]
 }
